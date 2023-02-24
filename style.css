@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+header{
+    width: auto;
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.header-logo-top{
+    margin: 5px 0px;
+}
+nav .menu-list{
+    display: flex;
+    line-height: 80px;
+    display: inline-flex;
+    position: relative;
+}
+nav .menu-list li {
+    list-style: none;
+    padding: 0px 30px;
+}
+.menu-mu-game-list{
+    position: absolute;
+    display: none;
+    width: 200px;
+    background-color: yellowgreen;
+}
+nav>.menu-list li>a{
+    text-decoration: none;
+    color: white;
+}
+.menu-game-list, .menu-music-list{
+}
+.menu-list li:hover{
+    background-color: white;
+}
+.menu-list li:hover a{
+    color: black;
+}
+.menu-list li:hover .menu-mu-game-list{
+    display: block;
+
+}
+.menu-mu-game-list li:hover{
+    background-color: aquamarine;
+}
+.content{
+    height: 600px;
+    background-image: url(/images/backiee-241672-landscape.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
